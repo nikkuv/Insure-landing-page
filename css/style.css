@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Serif Display", serif;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.navbar__links {
+  display: none;
+}
+
+.navbar__hamburgerIcon {
+  display: block;
+}
+
+.navbar__logoimage {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+.header {
+  width: 100%;
+}
+
+.header__heroimg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header__text {
+  background-color: #2d2640;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.header__patternleft {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header__patternright {
+  position: absolute;
+  bottom: -35%;
+  right: 0;
+}
+
+.header__heading {
+  letter-spacing: 2px;
+  font-size: 2rem;
+  padding: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.header__para {
+  font-family: "Karla", sans-serif;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  line-height: 25px;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+}
+
+.header__button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: 700;
+  margin: 1rem;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.header__button:focus {
+  outline: none;
+}
+
+.section1 {
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.section1__heading {
+  position: relative;
+  font-size: 2rem;
+  padding: 2rem 0;
+  color: #2d2640;
+}
+
+.section1__heading::before {
+  content: '';
+  height: 2px;
+  width: 50%;
+  background-color: #837d87;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  display: block;
+}
+
+.section1__item {
+  width: 100%;
+  padding: 2rem;
+}
+
+.section1__itemheading {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: #2d2640;
+}
+
+.section1__itempara {
+  font-family: "Karla", sans-serif;
+  font-size: .8rem;
+  line-height: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #837d87;
+}
+
+.section2 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2__item {
+  margin: 1rem;
+  height: 50vh;
+  background-color: #2d2640;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.section2__itemheading {
+  color: #fff;
+  font-size: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.section2__button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  padding: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-weight: 700;
+  margin: 1rem;
+  letter-spacing: 2px;
+}
+
+.section2__button:focus {
+  outline: none;
+}
+
+.section2__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40%;
+}
+
+.footer__items {
+  position: relative;
+  overflow: hidden;
+  margin: 1rem 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer__logo {
+  padding: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.footer__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.footer__links {
+  list-style: none;
+  position: relative;
+  z-index: 1;
+}
+
+.footer__links--social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__link {
+  text-decoration: none;
+  padding: 1rem;
+  color: #2d2640;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.footer__heading {
+  padding: 1rem;
+  color: #837d87;
+  font-family: "Karla", sans-serif;
+  text-transform: uppercase;
+}
+
+.footer__heading--line::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 1px;
+  background-color: #837d87;
+  margin: .5rem 0;
+}
+
+@media (min-width: 425px) {
+  .navbar__hamburgerIcon {
+    display: none;
+  }
+}
