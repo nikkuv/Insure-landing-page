@@ -1,0 +1,62 @@
+.header{
+    width: 100%;
+    
+    &__heroimg{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    &__content{
+        background-color: $dark-violet;
+    }
+
+    &__text{
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+        position: relative; 
+    }
+
+    &__pattern{
+        position: absolute;
+
+        &--leftmobile{
+            top:0;
+            left:0; 
+        }
+
+        &--leftdesktop{
+            display: none;
+        }
+
+        &--rightmobile{
+            bottom:-40%;
+            right:0;
+        }
+
+        &--rightdesktop{
+            display: none;
+        }
+    }
+
+    &__heading{
+        letter-spacing: 2px;
+        font-size: 2rem;
+        padding: 1rem 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    &__para{
+        font-family: $paragraph;
+        padding: 1rem 0;
+        letter-spacing: 1px;
+        font-size: 1rem;
+        line-height: 25px;
+        font-weight: 400;
+        position: relative;
+        z-index: 1;
+    }
+
+}
