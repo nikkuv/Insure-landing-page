@@ -20,10 +20,10 @@
 
 .navbar__links.show {
   position: fixed;
-  top: 14vh;
+  top: 14%;
   left: 0;
   background-color: #2d2640;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   list-style: none;
   display: flex;
@@ -169,8 +169,7 @@
 }
 
 .section2 {
-  height: 100vh;
-  margin: 2rem 0;
+  margin: 4rem 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -346,12 +345,11 @@ body {
   }
   .header {
     position: relative;
-    height: 100vh;
-    margin-top: 13vh;
+    margin-top: 4rem;
   }
   .header__heroimg {
     position: absolute;
-    top: 10%;
+    top: 13%;
     right: 9%;
     width: 30%;
     z-index: 1;
@@ -402,6 +400,9 @@ body {
   .header__pattern--rightmobile {
     display: none;
   }
+  .section1 {
+    margin-top: 4rem;
+  }
   .section1__items {
     display: flex;
   }
@@ -416,6 +417,9 @@ body {
   .section1__heading__itemheading {
     text-align: start;
     font-size: 3rem;
+  }
+  .section2 {
+    margin: 6rem 0;
   }
   .section2__content {
     display: flex;
